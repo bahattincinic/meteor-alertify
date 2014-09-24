@@ -8,4 +8,10 @@ Package.on_use(function (api, where) {
   api.add_files('lib/alertify/lib/alertify.min.js', 'client');
   api.add_files('lib/alertify/themes/alertify.core.css', 'client');
   api.add_files('lib/alertify/themes/alertify.default.css', 'client');
+  api.add_files('export-alertify.js', 'client');
+
+  if (api.export){
+    api.export('alertify', 'client');
+  }
+
 });
