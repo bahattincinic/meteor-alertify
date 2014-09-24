@@ -1,3 +1,4 @@
 [submodule "lib/alertify"]
-    path = lib/alertify
-    url = https://github.com/fabien-d/alertify.js/tree/0.3.11
+	path = lib/alertify
+	url = git@github.com:fabien-d/alertify.js.git
+    branch = 0.3
