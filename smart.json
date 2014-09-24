@@ -1,0 +1,8 @@
+{
+  "name": "alertify",
+  "description": "alertify.js packaged for Meteor JS. See https://fabien-d.github.io/alertify.js/",
+  "homepage": "https://github.com/bahattincinic/meteor-alertify",
+  "author": "Bahattin Cinic <bahattincinic@gmail.com> (http://bahattincinic.com)",
+  "version": "1.0",
+  "git": "https://github.com/bahattincinic/meteor-alertify.git"
+}
