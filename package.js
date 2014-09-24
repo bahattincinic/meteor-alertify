@@ -3,8 +3,7 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-  where = where || ['client']
-  api.add_files('lib/alertify/lib/alertify.min.js', where);
-  api.add_files('lib/alertify/themes/alertify.core.css', where);
-  api.add_files('lib/alertify/themes/alertify.default.css', where);
+  api.add_files('lib/alertify/lib/alertify.min.js', 'client');
+  api.add_files('lib/alertify/themes/alertify.core.css', 'client');
+  api.add_files('lib/alertify/themes/alertify.default.css', 'client');
 });
